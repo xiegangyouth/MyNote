@@ -32,7 +32,7 @@
 |  W   | 该字符只能出现在<code>日期域</code>中，表示离该日期最近的`工作日` | 如<code>12W</code>表示离该月<code>12号</code>最近的<code>工作日</code>，如果该月的<code>12号</code>是<code>星期六</code>，则匹配<code>11号星期五</code>；如果<code>12号</code>是<code>星期日</code>，则匹配<code>13号星期一</code>；如果<code>12号</code>是<code>星期三</code>，那结果就是<code>星期三</code>。但必须注意<code>关联的匹配日期不能够跨月</code>，如指定<code>1W</code>,如果<code>1号</code>是<code>星期六</code>，那么结果就是<code>3号星期一</code>，而非上个月的最后的那天。<code>W</code>只能指定单一日期，而不能指定日期范围。 |
 |  #   | 该字符只能在<code>星期域</code>中使用，表示<code>当月的第几个周几</code> | 如`6#3`，表示当月的第3个星期五`6表示星期五，#3表示当月的第3个` |
 
-## 代码示例：
+# 代码示例：
 
 ### 秒
 
