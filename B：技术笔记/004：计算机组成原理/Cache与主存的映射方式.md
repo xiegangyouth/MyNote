@@ -67,3 +67,5 @@ A：0	B：1	`C`：4	D：6
 > 16块Cache行，2 路组相联→总共有8组
 >
 > 每个主存块大小位32B，按字节编址→一个主存块含32个地址单元→主存129号单元位于第4号主存块（从0开始）→对应Cache组号=4%8=4
+
+<iframe src="//player.bilibili.com/player.html?aid=70211798&bvid=BV1BE411D7ii&cid=121617139&page=67" scrolling="no" width="640px" height="480px" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
